@@ -28,7 +28,7 @@ spring:
           username: root
           password: root
           driver-class-name: com.mysql.jdbc.Driver
-          url: jdbc:mysql://localhost:3306/nrs?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=UTC
+          url: jdbc:mysql://localhost:3306/data?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=UTC
 mybatis-plus:
   config-location: classpath:mybatis/mybatis-config.xml
   mapper-locations: classpath*:mapper/*.xml
