@@ -47,3 +47,9 @@ logging:
 
 server:
   port: 2333
+
+
+egg-with-tomato.login.username: admin
+egg-with-tomato.login.password: 123456
+egg-with-tomato.accessToken:
+egg-with-tomato.i18n:
