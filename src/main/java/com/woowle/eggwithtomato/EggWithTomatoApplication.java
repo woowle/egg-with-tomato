@@ -6,10 +6,12 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.http.HttpMessageConverters;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.GsonHttpMessageConverter;
 
+@EnableEurekaClient
 @SpringBootApplication(exclude = DruidDataSourceAutoConfigure.class)
 @MapperScan("com.woowle.eggwithtomato.mapper")
 public class EggWithTomatoApplication {

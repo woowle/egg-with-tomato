@@ -63,4 +63,9 @@ egg-with-tomato.login.password: 123456
 egg-with-tomato.accessToken:
 egg-with-tomato.i18n:
 
-
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://106.12.86.22:8761/eureka/
